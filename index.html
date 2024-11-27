@@ -19,9 +19,36 @@
     <img width="35%" height="100%" src="halie-west-25xggax4bSA-unsplash .jpg" alt="palmier">
     <div class="container-odin"> <img src=" odin-lined.png" alt="odin-logo" class="odin-logo"> <span> odin</span></div>
     <div class="container-form">
-        <div class="description">fgggd</div>
-        <form action="" method="get"></form>
-        <div class="account"></div>
+        <div class="description">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Ratione qui repellat magnam ab molestiae modi laudantium harum
+                impedit amet hic minus dignissimos fugiat unde eveniet eos, recusandae,
+            </p>
+            <p>sequi sint aperiam?</p>
+        </div>
+        <form action="mypage.com" method="get">
+            <p class="legend-form">let's do it</p>
+
+            <section class="container-input">
+                <div class="group-input-1">
+                    <label for="first-name">First Name<input type="text" id="first-name" name="firat-name"></label>
+                    <label for="last-name">LAST NAME<input type="" id="last-name" name="last-name" ></label>
+                </div>
+                <div class="group-input-2">
+                    <label for="email">EMAIL<input type="email" id="email" name="email" ></label>
+                    <label for="phone-number">PHONE NUMBER<input type="tel" id="phone-number" pattern="\d{8}"></label>
+                </div>
+                <div class="group-input-3">
+                    <label for="pwd1">PASSWORD<input type="password" id="pwd1" pattern=".{8,}[A-Z]+[0-9]+\W+" ></label>
+                    <label for="pwd2">PASSWORD<input type="password" id="pwd2" pattern=".{8,}[A-Z]+[0-9]+\W+"></label>
+                </div>
+            </section>
+            <section class="container-button"><button type="submit">Create Account</button></section>
+        </form>
+        <div class="account">
+            Already have an account? <a href="">Log in</a>
+        </div>
     </div>
 </body>
 </html>
